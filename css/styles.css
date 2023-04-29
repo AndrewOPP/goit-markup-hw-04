@@ -376,8 +376,7 @@ img {
   |============================
 */
 .cont-section-five {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .section-five-title {
@@ -410,6 +409,11 @@ img {
   align-items: center;
   justify-content: center;
   color: #8e8f99;
+}
+.section-five-link:hover,
+.section-five-link:focus {
+  border-color: #404bbf;
+  color: #404bbf;
 }
 
 .section-five-icons {
