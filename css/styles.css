@@ -233,6 +233,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  margin-top: 8px;
 }
 
 .section-two-list-descriptions {
@@ -244,6 +245,14 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.section-two-icons {
+  display: flex;
+  justify-content: center;
+  background-color: #f4f4fd;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 /* Section three */
