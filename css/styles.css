@@ -49,6 +49,15 @@ img {
 
 /**
   |============================
+  | ICONS
+  |============================
+*/
+.icon-instagram {
+  fill: #f4f4fd;
+}
+
+/**
+  |============================
   | Сards
   |============================
 */
@@ -170,7 +179,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/people-office.png);
+    url(../images/index/img-name.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -233,7 +242,6 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  margin-top: 8px;
 }
 
 .section-two-list-descriptions {
@@ -250,9 +258,12 @@ img {
 .section-two-icons {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #f4f4fd;
   padding-top: 24px;
   padding-bottom: 24px;
+  margin-bottom: 8px;
+  border-radius: 4px;
 }
 
 /* Section three */
@@ -312,8 +323,8 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
-.section-three-small-discription {
-  padding: 32px 16px;
+.section-four-small-discription {
+  padding: 32px 0;
 }
 
 .section-four-names {
@@ -332,6 +343,27 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
+}
+
+.icons-list-section-four {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.icons-list-li-section-four {
+  width: 40px;
+  height: 40px;
+}
+
+.icons-list-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Footer */
