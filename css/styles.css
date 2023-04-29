@@ -52,10 +52,9 @@ img {
   | ICONS
   |============================
 */
-.icon-instagram {
+.icon {
   fill: #f4f4fd;
 }
-
 /**
   |============================
   | Сards
@@ -179,7 +178,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/index/img-name.jpeg);
+    url(../images/img-name.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -349,6 +348,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin-top: 8px;
 }
 
 .icons-list-li-section-four {
@@ -360,10 +360,60 @@ img {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
-  border-radius: 50px;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.icons-list-link:hover,
+.icons-list-link:focus {
+  background-color: #404bbf;
+}
+
+/**
+  |============================
+  | Section 5
+  |============================
+*/
+.cont-section-five {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.section-five-title {
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: #2e2f42;
+  line-height: 1.1;
+  font-size: 36px;
+  margin-bottom: 72px;
+}
+
+.section-five-list {
+  display: flex;
+  gap: 24px;
+}
+
+.section-five-list-li {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
+
+.section-five-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8e8f99;
+}
+
+.section-five-icons {
+  fill: currentColor;
 }
 
 /* Footer */
