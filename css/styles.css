@@ -377,6 +377,7 @@ img {
 */
 .cont-section-five {
   padding: 120px 0;
+  max-width: 1128px;
 }
 
 .section-five-title {
